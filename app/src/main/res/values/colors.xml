@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="peach">#FFC478</color>
+    <color name="light_salmon">#F0E5D8</color>
+    <color name="light_green">#BBDFC8</color>
+    <color name="green">#75cfb8</color>
+    <color name="grey">#424242</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FAFF00</color>
+    <color name="neon_green">#00FF19</color>
+    <color name="blue">#0500FF</color>
+    <color name="dark_red">#CF7575</color>
+    <color name="pink">#C875CF</color>
+
+    <color name="brown">#424242</color>
+    <color name="gold">#FFC478</color>
+    <color name="mine">#BBDFC8</color>
+    <color name="lightpink">#f0e5d8</color>
+    <color name="turquoise">#75cfb8</color>
+</resources>

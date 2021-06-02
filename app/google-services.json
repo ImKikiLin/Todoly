@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "786253642847",
+    "firebase_url": "https://todoly-d8179-default-rtdb.firebaseio.com",
+    "project_id": "todoly-d8179",
+    "storage_bucket": "todoly-d8179.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786253642847:android:76c940a77f215180e06fea",
+        "android_client_info": {
+          "package_name": "com.poodlemoth.todoly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786253642847-pb2cjm3tc5n98s8ol9259jr6sdv6j6l1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA118jrv61KtwmyFPyBUnhiteH_fSBpUuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786253642847-pb2cjm3tc5n98s8ol9259jr6sdv6j6l1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

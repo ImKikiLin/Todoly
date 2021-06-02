@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- styles.xml -->
+    <style name="you_have_no_tasks">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.23
+        </item>
+
+        <item name="android:textColor">
+            @color/grey
+
+        </item>
+
+    </style>
+
+
+</resources>
