@@ -1,3 +1,9 @@
+//Name: createTaskActivity.kt
+//Purpose: It is the back-end for create task page where it takes all information and display when the save button is clicked.
+//Date: June 1, 2020
+//Author(s): Smit Patel, Isaiah Lee
+//Dependencies: activity_createtask.xml, activity_main.xml
+
 package com.poodlemoth.todoly
 
 import android.content.Intent

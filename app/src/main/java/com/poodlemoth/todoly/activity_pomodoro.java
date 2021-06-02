@@ -1,3 +1,9 @@
+//Name: activity_pomodoro.java
+//Purpose: It is the back-end for the app's pomodoro timer.
+//Date: June 1, 2020
+//Author(s): Kiki Lin
+//Dependencies: activity_timer.xml, acitivity_main.xml
+
 package com.poodlemoth.todoly;
 
 import androidx.appcompat.app.AlertDialog;

@@ -1,3 +1,9 @@
+//Name: CalendarAdapter.java
+//Purpose: It is the back-end for calendar using recycler view to adapt the calendar information.
+//Date: June 1, 2020
+//Author(s): Kiki Lin
+//Dependencies: activity_month.xml, CalenderMainActivity.java, CalendarViewHolder.java
+
 package com.poodlemoth.todoly;
 
 import android.view.LayoutInflater;

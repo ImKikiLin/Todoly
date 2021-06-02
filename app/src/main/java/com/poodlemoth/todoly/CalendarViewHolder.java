@@ -1,3 +1,9 @@
+//Name: CalendarViewHolder.java
+//Purpose: It is the back-end for calender view holder where the user can click on any day and it will be clicked.
+//Date: June 1, 2020
+//Author(s): Kiki Lin
+//Dependencies: activity_month.xml, CalenderMainActivity.java, CalendarAdapter.java
+
 package com.poodlemoth.todoly;
 
 import android.view.View;

@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Name: activity_timer.xml
+Purpose: It is the front-end file for the pomodoro timer.
+Date: June 1, 2020
+Author(s): Kiki Lin
+Dependencies: activity_pomodoro.java, MainActivity.kt
+-->
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"

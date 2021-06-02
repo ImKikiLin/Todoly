@@ -1,3 +1,9 @@
+//Name: CalenderActivity.kt
+//Purpose: It is the back-end for the back button inside the calendar page.
+//Date: June 1, 2020
+//Author(s): Smit Patel
+//Dependencies: activity_month.xml, activity_main.xml
+
 package com.poodlemoth.todoly
 
 import android.content.Intent

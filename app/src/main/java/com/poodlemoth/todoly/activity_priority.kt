@@ -1,3 +1,9 @@
+//Name: activity_priority.kt
+//Purpose: It is the back-end for the priority page of the task page.
+//Date: June 1, 2020
+//Author(s): Smit Patel, Kiki Lin
+//Dependencies: activity_priority.xml, activity_createtask.xml
+
 package com.poodlemoth.todoly
 
 import android.content.Intent

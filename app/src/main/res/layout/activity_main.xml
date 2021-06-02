@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Name: activity_main.xml
+Purpose: It is the front-end file for the main activity page.
+Date: June 1, 2020
+Author(s): Kiki Lin, Isaiah Lee
+Dependencies: MainActivity.kt
+-->
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,11 +15,7 @@
     android:background="#424242"
     android:visibility="visible">
 
-
-    <!-- divider -->
-
-    <!--New task button -->
-
+<!-- Pomodoro Button-->
     <Button
         android:id="@+id/pomodoroBtn"
         style="@style/Widget.Design.FloatingActionButton"
@@ -52,8 +56,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- You have no task-->
-
+    <!--New task button -->
     <Button
         android:id="@+id/newtaskbutton"
         style="@style/Widget.Design.FloatingActionButton"
@@ -133,6 +136,7 @@
         app:layout_constraintStart_toStartOf="@+id/viewport"
         app:layout_constraintTop_toTopOf="@+id/viewport" />
 
+<!-- Calendar button -->
     <ImageButton
         android:id="@+id/calendar_button"
         android:layout_width="0dp"
@@ -165,6 +169,7 @@
         app:layout_constraintStart_toStartOf="@+id/viewport"
         app:layout_constraintTop_toBottomOf="@+id/today" />
 
+    <!-- divider -->
     <View
         android:id="@+id/divider2"
         android:layout_width="match_parent"
@@ -212,6 +217,7 @@
                 app:iconTint="@color/blue"
                 android:visibility="visible"/>
                -->
+            <!-- You have no task text -->
             <TextView
                 android:id="@+id/no_task2"
                 android:layout_width="296dp"

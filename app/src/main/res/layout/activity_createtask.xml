@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Name: activity_createtask.xml
+Purpose: It is the front-end file for the create task activity page.
+Date: June 1, 2020
+Author(s): Kiki Lin, Isaiah Lee
+Dependencies: createTaskActivity.kt
+-->
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,6 +14,7 @@
     android:layout_height="match_parent"
     android:background="@color/grey">
 
+<!-- Title -->
     <TextView
         android:id="@+id/title2"
         android:layout_width="wrap_content"
@@ -37,6 +46,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+<!-- Task/Reminder Content Box-->
     <View
         android:id="@+id/view"
         android:layout_width="0dp"
@@ -83,6 +93,7 @@
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toBottomOf="@+id/date" />
 
+<!-- Date text-->
     <TextView
         android:id="@+id/date"
         android:layout_width="wrap_content"
@@ -172,6 +183,7 @@
         app:layout_constraintTop_toBottomOf="@+id/divider6"
         app:layout_constraintVertical_bias="0.0" />
 
+<!-- Date edit box -->
     <EditText
         android:id="@+id/editTextDate2"
         android:layout_width="wrap_content"
@@ -207,6 +219,7 @@
         app:layout_constraintStart_toStartOf="@+id/titleview"
         app:layout_constraintTop_toTopOf="@+id/titleview" />
 
+<!-- Title of task/reminder edit box-->
     <EditText
         android:id="@+id/titleEdit"
         android:layout_width="0dp"
@@ -270,6 +283,7 @@
         app:layout_constraintStart_toStartOf="@+id/linkView"
         app:layout_constraintTop_toTopOf="@+id/linkView" />
 
+<!-- Link edit box -->
     <EditText
         android:id="@+id/linkedit"
         android:layout_width="wrap_content"
@@ -285,6 +299,7 @@
         app:layout_constraintTop_toTopOf="@+id/linkView"
         tools:textColorHint="@color/light_salmon" />
 
+<!-- Description edit  box-->
     <EditText
         android:id="@+id/descriptionEntry"
         android:layout_width="0dp"
@@ -309,6 +324,7 @@
         app:layout_constraintTop_toTopOf="@+id/descriptionView"
         app:layout_constraintVertical_bias="1.0" />
 
+<!-- Save task/reminder button -->
     <Button
         android:id="@+id/task_save"
         android:layout_width="0dp"

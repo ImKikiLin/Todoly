@@ -1,3 +1,9 @@
+//Name: Main Activity
+//Purpose: It is the back-end for our app's calendar month view.
+//Date: June 1, 2020
+//Author(s): Kiki Lin, Isaiah Lee
+//Dependencies: activity_month.xml, CalenderAdapter.java, CalendarViewHolder.java
+
 package com.poodlemoth.todoly;
 
 import androidx.appcompat.app.AppCompatActivity;

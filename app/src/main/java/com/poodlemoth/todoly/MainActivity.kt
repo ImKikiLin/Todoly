@@ -1,3 +1,9 @@
+//Name: MainActivity.kt
+//Purpose: It is the back-end for our app's main page. It controls all the buttons of the main page.
+//Date: June 1, 2020
+//Author(s): Smit Patel, Isaiah Lee, Armin Miller
+//Dependencies: activity_main.xml
+
 package com.poodlemoth.todoly;
 
 import android.annotation.SuppressLint

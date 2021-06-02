@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Name: activity_month.xml
+Purpose: It is the front-end file for the calendar month view.
+Date: June 1, 2020
+Author(s): Kiki Lin, Isaiah Lee
+Dependencies: CalenderMainActivity.kt
+-->
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -83,6 +91,7 @@
 
     </LinearLayout>
 
+<!-- Days of the week -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -150,7 +159,6 @@
             android:textColor="@color/gold"
             android:textAlignment="center"
             android:textSize="16sp"/>
-
 
     </LinearLayout>
 
