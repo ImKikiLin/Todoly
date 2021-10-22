@@ -19,3 +19,19 @@ Our team used Figma to make mock-up examples of our app.
 We used Android Studio to create the app.
 
 This app was built using Kotlin and Java as our backend, and XML as our frontend portion.
+
+--------------------------------------------------------------------------
+
+**Home Page**
+
+![image](https://user-images.githubusercontent.com/75643891/138512659-4af61c72-a1b9-47fe-81a4-33c13c913e0e.png)
+
+
+**Pomodoro Page**
+
+![image](https://user-images.githubusercontent.com/75643891/138512758-8a821d1f-dae2-401e-9367-5842a6b2a64b.png)
+
+
+**Entering Task Page**
+
+![image](https://user-images.githubusercontent.com/75643891/138512797-0160a85b-a28c-4cd4-b4e0-11018dbdcd1e.png)
