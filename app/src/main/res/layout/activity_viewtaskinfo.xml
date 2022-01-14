@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <TextView
+        android:id="@+id/TodolyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@null"
+        android:editable="false"
+        android:fontFamily="@font/assistant_extralight"
+        android:text="@string/to_doly"
+        android:textColor="@color/light_green"
+        android:textSize="65sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <View
+        android:id="@+id/TitleDivider"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/greenbutton"
+        android:backgroundTint="@color/gold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/blueouter"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="93dp"
+        android:background="@drawable/dayviewbackground"
+        android:backgroundTint="@color/light_green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleDivider"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/brownouter"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/dayviewbackground"
+        android:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toBottomOf="@+id/blueouter"
+        app:layout_constraintEnd_toEndOf="@+id/blueouter"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/blueouter"
+        app:layout_constraintTop_toBottomOf="@+id/dateDivider"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/dateDivider"
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/creambutton"
+        android:backgroundTint="@color/grey"
+        app:layout_constraintEnd_toEndOf="@+id/blueouter"
+        app:layout_constraintStart_toStartOf="@+id/blueouter"
+        app:layout_constraintTop_toBottomOf="@+id/dateTitle" />
+
+    <TextView
+        android:id="@+id/dateTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/manrope_medium"
+        android:text="Date:"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="@+id/blueouter"
+        app:layout_constraintTop_toTopOf="@+id/blueouter" />
+
+    <View
+        android:id="@+id/editDatebox"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/greenbutton"
+        android:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/dateDivider"
+        app:layout_constraintEnd_toEndOf="@+id/blueouter"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/blueouter"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/orangeouter"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/greenbutton"
+        android:backgroundTint="@color/gold"
+        app:layout_constraintBottom_toBottomOf="@+id/brownouter"
+        app:layout_constraintEnd_toEndOf="@+id/brownouter"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/brownouter"
+        app:layout_constraintTop_toTopOf="@+id/brownouter"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/mainbox"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/greenbutton"
+        android:backgroundTint="@color/gold"
+        app:layout_constraintBottom_toBottomOf="@+id/brownouter"
+        app:layout_constraintEnd_toEndOf="@+id/brownouter"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/brownouter"
+        app:layout_constraintTop_toBottomOf="@+id/orangeouter" />
+
+    <View
+        android:id="@+id/descriptionDividers"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/creambutton"
+        android:backgroundTint="@color/grey"
+        app:layout_constraintEnd_toEndOf="@+id/mainbox"
+        app:layout_constraintStart_toStartOf="@+id/mainbox"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionText" />
+
+    <View
+        android:id="@+id/editDescription"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/greenbutton"
+        android:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toBottomOf="@+id/mainbox"
+        app:layout_constraintEnd_toEndOf="@+id/mainbox"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/mainbox"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionDividers"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:editable="false"
+        android:fontFamily="@font/manrope_regular"
+        android:text="Title:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/orangeouter"
+        app:layout_constraintStart_toStartOf="@+id/orangeouter"
+        app:layout_constraintTop_toTopOf="@+id/orangeouter" />
+
+    <EditText
+        android:id="@+id/editTitleLine"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="13dp"
+        android:contentDescription="title"
+        android:editable="true"
+        android:fontFamily="@font/manrope_light"
+        android:hint=""
+        android:inputType="text"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/orangeouter"
+        app:layout_constraintEnd_toEndOf="@+id/orangeouter"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@+id/titleText"
+        app:layout_constraintTop_toTopOf="@+id/orangeouter" />
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="11dp"
+        android:editable="false"
+        android:fontFamily="@font/manrope_regular"
+        android:text="Description:"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="@+id/mainbox"
+        app:layout_constraintTop_toTopOf="@+id/mainbox" />
+
+    <View
+        android:id="@+id/editLink"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/greenbutton"
+        android:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toBottomOf="@+id/mainbox"
+        app:layout_constraintEnd_toEndOf="@+id/mainbox"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/mainbox"
+        app:layout_constraintTop_toBottomOf="@+id/editDescription"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/linktext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:editable="false"
+        android:fontFamily="@font/manrope_regular"
+        android:text="Link:"
+        android:textColor="@color/gold"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/editLink"
+        app:layout_constraintStart_toStartOf="@+id/editLink"
+        app:layout_constraintTop_toTopOf="@+id/editLink" />
+
+    <Button
+        android:id="@+id/editTask"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/brown_gold_button"
+        android:fontFamily="@font/manrope_regular"
+        android:text="Edit Task"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blueouter" />
+
+    <Button
+        android:id="@+id/editPriorityButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/creambutton"
+        android:fontFamily="@font/manrope_regular"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="18sp"
+        app:backgroundTint="@color/peach"
+        app:layout_constraintBottom_toBottomOf="@+id/editDescription"
+        app:layout_constraintEnd_toEndOf="@+id/editDescription"
+        app:layout_constraintStart_toStartOf="@+id/editDescription" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
